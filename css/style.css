@@ -35,19 +35,19 @@ section {
     }
 }
 
-/* --- PUNTO DE RUPTURA 2: Laptops (min-width: 992px) --- */
+
 @media (min-width: 992px) {
     body {
-        background-color: #e9ecef; /* Nuevo cambio de color */
+        background-color: #e9ecef;
     }
 
     h1 {
-        color: #0d6efd; /* El título principal se vuelve azul */
+        color: #0d6efd;
         font-weight: bold;
     }
 
     .card {
-        border: 2px solid #0d6efd; /* Resaltamos las tarjetas */
+        border: 2px solid #0d6efd; 
     }
 }
 
