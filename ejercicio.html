@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Administrativo - Sistema de Rejillas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-2 col-md-3 bg-dark text-white min-vh-100">
+                <div class="p-3">
+                    <h4>Dashboard</h4>
+                    <nav class="nav flex-column">
+                        <a class="nav-link text-white" href="#">Inicio</a>
+                        <a class="nav-link text-white" href="#">Usuarios</a>
+                        <a class="nav-link text-white" href="#">Productos</a>
+                        <a class="nav-link text-white" href="#">Reportes</a>
+                        <a class="nav-link text-white" href="#">Configuración</a>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Área de contenido principal -->
+            <div class="col-lg-10 col-md-9">
+                <div class="p-4">
+                    <h1>Dashboard Administrativo</h1>
+                    <p>Bienvenido al panel de control. Aquí puedes gestionar tu sistema.</p>
+
+                    <!-- Fila de métricas -->
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Usuarios</h5>
+                                    <p class="card-text display-4">1,234</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Productos</h5>
+                                    <p class="card-text display-4">567</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ventas</h5>
+                                    <p class="card-text display-4">$89,012</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pedidos</h5>
+                                    <p class="card-text display-4">345</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fila de contenido adicional -->
+                    <div class="row mt-4">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Gráfico de Ventas</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p>Aquí iría un gráfico de ventas (usando Chart.js o similar).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Notificaciones</h5>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Nuevo usuario registrado</li>
+                                        <li class="list-group-item">Pedido completado</li>
+                                        <li class="list-group-item">Actualización de sistema</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
