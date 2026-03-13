@@ -1,1 +1,68 @@
 /* Estilos personalizados para el Laboratorio DPW2 */
+/* --- ESTILOS BASE (Móviles / Mobile First) --- */
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: #f0f2f5; 
+    font-size: 14px;        
+    transition: background-color 0.4s ease, font-size 0.4s ease;
+}
+
+aside {
+    display: none;
+}
+
+
+section {
+    scroll-margin-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: #ffffff; 
+        font-size: 16px;          
+    }
+
+ 
+    aside {
+        display: block;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+}
+
+/* --- PUNTO DE RUPTURA 2: Laptops (min-width: 992px) --- */
+@media (min-width: 992px) {
+    body {
+        background-color: #e9ecef; /* Nuevo cambio de color */
+    }
+
+    h1 {
+        color: #0d6efd; /* El título principal se vuelve azul */
+        font-weight: bold;
+    }
+
+    .card {
+        border: 2px solid #0d6efd; /* Resaltamos las tarjetas */
+    }
+}
+
+/* --- PUNTO DE RUPTURA 3: Pantallas Grandes (min-width: 1200px) --- */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px; /* Fuente más grande para descanso visual */
+    }
+
+    main {
+        padding: 60px !important; /* Más margen de contenido */
+    }
+
+    h2 {
+        border-left: 5px solid #0d6efd; /* Detalle decorativo en títulos */
+        padding-left: 15px;
+    }
+}
